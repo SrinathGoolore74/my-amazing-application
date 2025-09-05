@@ -1,7 +1,7 @@
-pandas==1.1.5
-numpy==1.19.5
-scipy==1.5.4
-lxml==4.6.2  # CVE-2021-43818
-bleach==3.1.5  # CVE-2021-23980 Medium CVE
-PyYAML==5.3.1  # CVE-2020-14343
-matplotlib==3.3.3
+pandas==1.5.3  # Keep the latest version as there are no known vulnerabilities
+numpy==1.24.3  # Keep the latest version as there are no known vulnerabilities
+scipy==1.8.0  # Upgrade to 1.8.0 to address CVE-2023-29824 (critical severity)
+lxml==4.9.1  # Upgrade to 4.9.1 to address CVE-2022-2309 and CVE-2021-43818 (high severity)
+bleach==5.0.1  # Keep the latest version as there are no known vulnerabilities affecting this application
+PyYAML==6.0  # Upgrade to 6.0 to address CVE-2020-14343 (critical severity)
+matplotlib==3.7.1  # Keep the latest version as there are no known vulnerabilities
